@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version"
+  },
+  "devDependencies": {
+    "docusaurus": "^1.7.2"
+  },
+  "dependencies": {
+    "@smooth-ui/core-sc": "^8.1.0",
+    "rendition": "^4.45.3",
+    "styled-components": "^4.1.3"
+  }
+}
