@@ -24,13 +24,15 @@ const RenditionComponents = () => (
   <Provider>
     <div>
       <h1>Rendition Components</h1>
-      <Button onClick={() => alert('works')}>Rendition default button</Button>
+      <Button>Rendition default button</Button>
       <Spacing />
-      <Button onClick={() => alert('works')} danger>
-        Rendition danger Button
-      </Button>
+      <Button danger>Rendition danger Button</Button>
       <Spacing />
       <Alert>Rendition Alert</Alert>
+      <div>
+        <h4>See how is Button being imported</h4>
+        <code>{JSON.stringify(Button)}</code>
+      </div>
     </div>
   </Provider>
 );
@@ -39,13 +41,9 @@ const SmoothUICompoments = () => (
   <ProviderSC theme={theme}>
     <div>
       <h1>Smooth UI Components</h1>
-      <ButtonSC onClick={() => alert('works')}>
-        Smooth UI default button
-      </ButtonSC>
+      <ButtonSC>Smooth UI default button</ButtonSC>
       <Spacing />
-      <ButtonSC onClick={() => alert('works')} variant="danger">
-        Smooth UI danger Button
-      </ButtonSC>
+      <ButtonSC variant="danger">Smooth UI danger Button</ButtonSC>
       <Spacing />
       <AlertSC>Smooth UI Alert</AlertSC>
     </div>
