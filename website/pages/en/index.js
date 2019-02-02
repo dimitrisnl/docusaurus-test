@@ -29,10 +29,6 @@ const RenditionComponents = () => (
       <Button danger>Rendition danger Button</Button>
       <Spacing />
       <Alert>Rendition Alert</Alert>
-      <div>
-        <h4>See how is Button being imported</h4>
-        <code>{JSON.stringify(Button)}</code>
-      </div>
     </div>
   </Provider>
 );
